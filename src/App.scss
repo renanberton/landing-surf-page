@@ -1,72 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
 
-* {
-   margin: 0;
-   padding: 0;
-}
-
-header {
+.banner {
    width: 100%;
-   height: auto;
+   height: 100vh;
+   position: fixed;
+   z-index: 1;
    display: flex;
+   flex-direction: column;
    justify-content: center;
    align-items: center;
-   flex-wrap: wrap;
-   margin: 0 auto;
+   gap: 50px;
 
-   .box-logo {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
+   h1 {
+      font-family: 'Roboto', sans-serif;
+      color: #E8E8E8;
+      text-align: center;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
 
-      img {
-         width: 100px;
-         padding: 20px;
-      }
+   a {
+      width: 250px;
+      height: 40px;
+      background: #D67F41;
+      border-radius: 5px;
+      color: #F0F0F0;
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 26px;
+      font-weight: 400;
+      text-decoration: none;
+      text-align: center;
+   }
+}
 
-      span {
-         color: #717171;
-         font-family: 'Fredoka, sans serif';
-         font-size: 26px;
-         font-style: normal;
-         font-weight: 400;
-         line-height: normal;
+@media only screen and (max-width: 800px) {
+   .banner {
+      height: 50vh;
+      h1 {
+         font-size: 18px;
       }
 
       a {
-         text-decoration: none;
+         width: 200px;
+         height: 30px;
+         font-size: 1rem;
+      }
+   }
+}
+
+@media only screen and (max-width: 420px) {
+   .banner {
+      height: 30vh;
+      h1 {
+         font-size: 18px;
+      }
+
+      a {
+         width: 200px;
+         height: 30px;
+         font-size: 1rem;
       }
    }
 
-   nav {
-      width: 450px;
-      height: auto;
-      margin: 50px auto;
-      overflow: hidden;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-wrap: wrap;
-
-      ul {
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         list-style: none;
-         gap: 50px;
-
-         li a {
-            color: #717171;
-            font-family: 'Source Sans Pro';
-            font-size: 26px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            letter-spacing: 0.52px;
-            text-decoration: none;
-         }
-      }   
-   }
 }
