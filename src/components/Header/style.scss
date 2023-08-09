@@ -14,6 +14,9 @@ header {
    align-items: center;
    flex-wrap: wrap;
    margin: 0 auto;
+   position: sticky;
+   top: 0;
+   background-color: #fff;
 
    .box-logo {
       display: flex;
@@ -49,6 +52,7 @@ header {
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
+      
 
       ul {
          display: flex;
