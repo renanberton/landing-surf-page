@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+.banner {
+   width: 100%;
+   height: 100vh;
+   position: fixed;
+   z-index: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+
+   h1 {
+      font-family: 'Roboto', sans-serif;
+      color: #E8E8E8;
+      text-align: center;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+   }
+
+   a {
+      width: 250px;
+      height: 40px;
+      background: #D67F41;
+      border-radius: 5px;
+      color: #F0F0F0;
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 26px;
+      font-weight: 400;
+      text-decoration: none;
+      text-align: center;
+   }
+}
+
+@media only screen and (max-width: 800px) {
+   .banner {
+      height: 50vh;
+      h1 {
+         font-size: 18px;
+      }
+
+      a {
+         width: 200px;
+         height: 30px;
+         font-size: 1rem;
+      }
+   }
+}
+
+@media only screen and (max-width: 420px) {
+   .banner {
+      height: 30vh;
+      h1 {
+         font-size: 18px;
+      }
+
+      a {
+         width: 200px;
+         height: 30px;
+         font-size: 1rem;
+      }
+   }
+
+}
