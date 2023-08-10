@@ -61,6 +61,7 @@ header {
          align-items: center;
          list-style: none;
          gap: 50px;
+         padding-left: 0 !important;
 
          li a {
             color: #717171;
@@ -77,11 +78,20 @@ header {
 }
 
 @media only screen and (max-width: 420px) {
-   nav {
-      ul {
-         li a {
-            font-size: 20px !important;
+
+
+      nav {
+         ul {
+            li a {
+               font-size: 20px !important;
+            }
          }
       }
+
+}
+
+@media only screen and (max-width: 680px) {
+   header {
+      padding: 50px 0 0 0;
    }
 }
