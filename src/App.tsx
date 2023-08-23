@@ -5,9 +5,19 @@ import { Intro } from './components/Intro';
 import { Galery } from './components/Galery';
 import { Icons } from './components/Icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useState } from 'react';
+import { Modal, Button } from 'react-bootstrap';
 
 
 function App() {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleSubmit = (event: any) => {
+    event.preventDefault();
+    setShowModal(true);
+  };
+
+
   return (
     <div className="App">
       <Header />
@@ -27,7 +37,7 @@ function App() {
           </div>
         </div>
         <div className="box-form-contact">
-          <form>
+          <form onSubmit={handleSubmit}>
             <div>
               <input type="text" placeholder='Digite seu Nome'  required />
             </div>
@@ -42,6 +52,20 @@ function App() {
             </div>
             <button type="submit">Enviar</button>
           </form>
+          <Modal show={showModal} onHide={() => setShowModal(false)}>
+            <Modal.Header closeButton>
+              <Modal.Title>Obrigado!</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              <p>Sua mensagem foi enviada com sucesso!</p>
+              <p>Em breve entraremos em contato</p>
+            </Modal.Body>
+            <Modal.Footer>
+              <Button variant="secondary" onClick={() => setShowModal(false)}>
+                Fechar
+              </Button>
+            </Modal.Footer>
+          </Modal>
         </div>  
       </div>      
     </div>
