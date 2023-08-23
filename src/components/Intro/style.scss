@@ -60,5 +60,14 @@
 @media only screen and (max-width: 1000px) {
    .intro {
       margin: 50px auto;
+
+      .intro-image, .intro-text {
+         width: 100%;
+      }
+
+      img {
+         width: 100%;
+         min-width: 100%;
+      }
    }
 }
