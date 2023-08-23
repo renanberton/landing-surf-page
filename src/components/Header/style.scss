@@ -15,7 +15,6 @@ header {
    align-items: center;
    flex-wrap: wrap;
    margin: 0 auto;
-   position: sticky;
    top: 0;
    background-color: #fff;
 
@@ -53,7 +52,6 @@ header {
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-      
 
       ul {
          display: flex;
@@ -78,8 +76,6 @@ header {
 }
 
 @media only screen and (max-width: 420px) {
-
-
       nav {
          ul {
             li a {
