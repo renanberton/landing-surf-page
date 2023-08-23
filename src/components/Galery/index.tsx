@@ -8,24 +8,21 @@ export function Galery() {
         <h3>Galeria de Fotos</h3>
         <Carousel data-bs-theme="dark">
           <Carousel.Item>
-            <img className="d-block w-100" src={process.env.PUBLIC_URL + '/imgs/image5.jpg'} alt="Icone da página" /> 
-            <Carousel.Caption>
-              
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <img className="d-block w-100" src={process.env.PUBLIC_URL + '/imgs/image5.jpg'} alt="Foto 1 do Slide" /> 
+            <Carousel.Caption>              
+              <p>Capturando a energia das ondas e a liberdade do mar.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-          <img className="d-block w-100" src={process.env.PUBLIC_URL + '/imgs/image6.jpg'} alt="Icone da página" /> 
+          <img className="d-block w-100" src={process.env.PUBLIC_URL + '/imgs/image6.jpg'} alt="Foto 2 do Slide" /> 
             <Carousel.Caption>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Equilíbrio entre desafio e conexão com a natureza.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-          <img className="d-block w-100" src={process.env.PUBLIC_URL + '/imgs/image9.jpg'} alt="Icone da página" /> 
+          <img className="d-block w-100" src={process.env.PUBLIC_URL + '/imgs/image9.jpg'} alt="Foto 3 do Slide" /> 
             <Carousel.Caption>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
+              <p> Deslize na harmonia das águas e descubra sua paixão pelo surf.</p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
