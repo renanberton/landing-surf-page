@@ -74,8 +74,28 @@
 }
 
 
-@media only screen and (max-width: 520px) {
-   .icons {
-      gap: 50px !important;
+@media only screen and (max-width: 420px) {
+   .box-icons {
+      h3 {
+         font-size: 28px;
+      }
+
+      a {
+         width: 250px;
+         font-size: 20px;
+      }
+      
+      .icons {
+         gap: 50px !important;
+      }
+
+      .container-icons {
+         @media only screen and (max-width: 520px) {
+            img {
+               width: 100px;
+               min-width: 100px;
+            }
+         }
+      }
    }
 }
