@@ -14,7 +14,7 @@ export function Contato() {
    };
 
    return (
-      <div className="contato">
+      <div className="contato" id="contato">
         <div className="box-social-media">
           <h4>Fale Conosco</h4>
           <span>(11)1234-5678</span>

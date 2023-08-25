@@ -4,7 +4,7 @@ import './style.scss';
 
 export function Galery() {
    return (
-      <div className="carousel">
+      <div className="carousel" id="fotos">
         <h3>Galeria de Fotos</h3>
         <Carousel data-bs-theme="dark">
           <Carousel.Item>
