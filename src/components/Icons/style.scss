@@ -99,3 +99,17 @@
       }
    }
 }
+
+@media only screen and (max-width: 900px) {
+   .box-icons {
+      .icons {
+         gap: 100px;
+
+         .container-icons {
+            img {
+               width: 100px;
+            }
+         }
+      }
+   }
+}
