@@ -33,3 +33,10 @@
 
 }
 
+@media only screen and (max-width: 420px) {
+   .carousel {
+      h3 {
+         font-size: 28px;
+      }
+   }
+}
