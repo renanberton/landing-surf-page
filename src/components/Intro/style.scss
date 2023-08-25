@@ -71,3 +71,17 @@
       }
    }
 }
+
+@media only screen and (max-width: 1000px) {
+   .intro {
+      .intro-text {
+         h2 {
+            font-size: 28px;
+         }
+
+         p {
+            font-size: 24px;
+         }
+      }
+   }
+}

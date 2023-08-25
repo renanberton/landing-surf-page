@@ -78,6 +78,8 @@ header {
 @media only screen and (max-width: 420px) {
       nav {
          ul {
+            gap: 30px !important;
+
             li a {
                font-size: 20px !important;
             }
