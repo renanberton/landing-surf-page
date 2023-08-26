@@ -19,10 +19,16 @@ export function Contato() {
           <h4>Fale Conosco</h4>
           <span>(11)1234-5678</span>
           <span>contato@alohasurf.com.br</span>
-          <div className="box-icons">
-            <img src={process.env.PUBLIC_URL + '/icons/facebook.png'} alt="Icone do Facebook" width={'30px'} /> 
-            <img src={process.env.PUBLIC_URL + '/icons/instagram.png'} alt="Icone do Instagram" width={'30px'} /> 
-            <img src={process.env.PUBLIC_URL + '/icons/twitter.png'} alt="Icone do Twitter" width={'30px'} /> 
+          <div className="box-social-icons">
+            <a href="https://www.facebook.com" target="blank">
+              <img src={process.env.PUBLIC_URL + '/icons/facebook.png'} alt="Icone do Facebook" width={'30px'} /> 
+            </a>
+            <a href="https://www.instagram.com" target="blank">
+              <img src={process.env.PUBLIC_URL + '/icons/instagram.png'} alt="Icone do Instagram" width={'30px'} /> 
+            </a>
+            <a href="https://www.twitter.com" target="blank">
+              <img src={process.env.PUBLIC_URL + '/icons/twitter.png'} alt="Icone do Twitter" width={'30px'} /> 
+            </a>
           </div>
         </div>
         <div className="box-form-contact">

@@ -17,7 +17,7 @@ export function Header() {
             <img src={process.env.PUBLIC_URL + '/icons/logo.png'} alt="Icone da página" /> 
           </a>
           <a href="/">
-            <span>ALOHA <br/> SURF <br/> SCHOOL <br/></span>
+            <span>ALOHA <br/> <strong style={{color: '#D67F41'}}>SURF</strong> <br/> SCHOOL <br/></span>
           </a>
         </div>
         <nav>

@@ -1,4 +1,5 @@
 import './style.scss';
+import { WhatsAppIcon } from '../Whatsapp';
 
 export function Banner() {
    return (
@@ -7,7 +8,8 @@ export function Banner() {
          backgroundSize: '100%',
          backgroundRepeat: 'no-repeat'}}>
            <h1>APRENDA A SURFAR CONOSCO</h1>
-           <a href="/">Quero aprender</a>
+           <a className='button' href="https://wa.me/5511976573355">Quero aprender</a>
+            <WhatsAppIcon />
        </div>
    )
 }
