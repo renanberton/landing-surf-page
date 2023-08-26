@@ -21,10 +21,10 @@
       line-height: normal;
    }
 
-   a {
+   a.button {
       width: 250px;
       height: 40px;
-      background: #D67F41;
+      background-color: #D67F41;
       border-radius: 5px;
       color: #F0F0F0;
       font-family: 'Source Sans 3', sans-serif;
@@ -42,7 +42,7 @@
          font-size: 18px;
       }
 
-      a {
+      button {
          width: 200px;
          height: 30px;
          font-size: 1rem;

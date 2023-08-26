@@ -2,7 +2,7 @@ import './style.scss';
 
 export function Intro() {
    return (
-   <div className="intro">
+   <div className="intro" id="intro">
       <div className='intro-text'>
          <h2>Descubra a emoção do Surf conosco!</h2>
          <p>Aprenda a surfar com nossa equipe preparada e experiente, contamos com instrutores dedicados e equipamentos de 

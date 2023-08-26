@@ -47,7 +47,7 @@ export function Icons() {
             )
           })}
         </div>
-        <a href="/">
+        <a href="https://wa.me/5511976573355">
           Agendar Aulas
         </a>
       </div>
