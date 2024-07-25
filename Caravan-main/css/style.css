@@ -1,0 +1,110 @@
+body {
+  padding-top: 76px;
+}
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
+  0 4px 8px 0 rgba(0,0,0,.05);
+}
+
+.boxImg {
+  height: 100px;
+}
+
+.decoracaoTexto a{
+  text-decoration: none;
+  list-style: none;  
+}
+
+#home-quote {
+  background: url(../img/bg-quote.jpg) center center;
+  background-size: cover;
+} 
+
+.lista-plano li {
+  border-bottom: 1px solid rgb(0, 0, 0, .2);
+  padding: 1rem;
+}
+
+.lista-plano li:nth-last-of-type(1) {
+  border-bottom: none;
+}
+
+.boxPlanos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.responsividadeBotoes {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+
+.centralizarBox {
+  display: flex;
+  justify-content: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+@media (max-width: 992px) {
+  
+  .ordemInscricao {
+    order: 2;
+  }
+  
+}
+
+  
+@media (max-width: 767px) {
+  #home-quote .display-4 {
+    font-size: 2.5rem;
+  }
+  body {
+   padding-top: 0px; 
+  }
+  .fixed-top {
+    position: relative;
+  }
+
+  .larguraAccordion {
+    width: 90% !important;
+  }
+
+  .responsividadeInscrevase {
+    padding: 30px;
+  }
+
+  .responsividadePlanos {
+    padding-top: 80px;
+  }
+  
+  .responsividadePagamento {
+    padding-top: 50px;
+  }
+
+  .flexPerguntas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .centralizarBox {
+    display: flex;
+    justify-content: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 100px;
+  }
+
+}
